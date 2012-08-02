@@ -34,7 +34,7 @@
 							else {
 								return function(){
 									
-									toolbar.css( "bottom", page.outerHeight() - $( window).scrollTop() - $.mobile.getScreenHeight() + "px" );
+									toolbar.css( "bottom", $(document).outerHeight() - $( window).scrollTop() - $.mobile.getScreenHeight() + "px" );
 								}
 								
 							}
